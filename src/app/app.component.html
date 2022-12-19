@@ -3,18 +3,8 @@
 <mat-sidenav-container class="example-container">
   <mat-sidenav mode="side" opened>Sidenav content</mat-sidenav>
   <mat-sidenav-content>
-    <router-outlet></router-outlet>
-    <button mat-raised-button color="primary"> test</button>
-
-    <ul>
-      <li>Toolbar menu</li>
-      <li>Drawer menu</li>
-      <li>Responsiveness</li>
-      <li>General info (paragraph about me, skills, links)</li>
-      <li>Projects section</li>
-      <li>About section</li>
-      <li>Creation of website section (gitflow, angular modules, responsiveness, internationalization, unit testing</li>
-      <li>Contact form</li>
-    </ul>
+    <main class="sidenav-content">
+      <router-outlet></router-outlet>
+    </main>
   </mat-sidenav-content>
 </mat-sidenav-container>
